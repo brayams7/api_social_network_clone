@@ -1,0 +1,46 @@
+{
+  "name": "socialmediaserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/app.ts",
+    "start": "node ./dist/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "2.4.3",
+    "body-parser": "1.20.2",
+    "cookie-parser": "1.4.6",
+    "cors": "2.8.5",
+    "dotenv": "16.0.3",
+    "express": "4.18.2",
+    "express-validator": "6.15.0",
+    "firebase": "9.20.0",
+    "jsonwebtoken": "9.0.0",
+    "mongoose": "6.10.0",
+    "mongoose-aggregate-paginate-v2": "1.0.6",
+    "mongoose-paginate-v2": "1.7.1",
+    "morgan": "1.10.0",
+    "multer": "1.4.5-lts.1",
+    "nodemon": "2.0.20",
+    "typescript": "4.9.5"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "2.4.2",
+    "@types/cookie-parser": "1.4.3",
+    "@types/cors": "2.8.13",
+    "@types/dotenv": "8.2.0",
+    "@types/express": "4.17.17",
+    "@types/express-validator": "3.0.0",
+    "@types/jsonwebtoken": "9.0.1",
+    "@types/mongoose": "5.11.97",
+    "@types/mongoose-aggregate-paginate-v2": "1.0.8",
+    "@types/morgan": "1.9.4",
+    "@types/multer": "1.4.7",
+    "@types/nodemon": "1.19.2"
+  }
+}
